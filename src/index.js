@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Navbar from './components/navbar';
+import backgroundImage from './assets/images/background-general.jpg';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const root = document.getElementById("root");
+root.style.background="url("+backgroundImage+")";
+root.style.backgroundSize = "cover"
+root.style.height="100vh";
+root.style.overflow="none";
+
+
+ReactDOM.render(<Navbar />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

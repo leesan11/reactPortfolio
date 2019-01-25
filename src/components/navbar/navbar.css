@@ -1,0 +1,22 @@
+.contain-navbar{
+    
+    height: 10vh;
+    position: absolute;
+    top: 182px;
+    left: 28px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    font-weight: 600;
+    font-size: 21px;
+    
+
+}
+
+.menu-button{
+    color:white;
+    display:inline-block;
+    padding:10px;
+    margin:4px;
+    
+    
+}
