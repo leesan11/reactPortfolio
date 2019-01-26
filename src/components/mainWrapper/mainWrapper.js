@@ -2,29 +2,49 @@ import React,{Component} from 'react';
 import './mainWrapper.css';
 import NavBar from '../navbar';
 import Main from '../main';
+import Projects from '../projects';
 
 class mainWrapper extends Component{
 
     constructor(props){
         super(props);
         this.state={
-            showProjects:false,
+            current:'home',
             showHome:true,
+            showProjects:false,
             showAboutMe:false
         }
     }
-    handleClick=()=>{
-        this.setState({
-            showProjects:true
-        })
+    handleClick=(e)=>{
+        
+
+        var targ = e.target.getAttribute("value");
+        if(targ==1){
+            e.target.style.animation='transition 1s';
+            this.setState({
+                current:'projects',
+                showHome:false,
+                showProjects:true,
+                showAboutMe:false
+            })
+        }else if(targ==2){
+            this.setState({
+                current:'aboutMe',
+                showHome:false,
+                showProjects:false,
+                showAboutMe:true
+            })
+        }
+
+        
     }
 
 
     render(){
         return (
             <div className='mainWrapper'>
-            <NavBar handleClick={this.handleClick}/>
-        {this.state.showProjects?<Main/>:""}
+            {this.state.showHome?<NavBar current={this.state.current} handleClick={this.handleClick}/>:""}
+        {this.state.showProjects?<Projects/>:""}
             </div>
         )
     }

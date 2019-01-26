@@ -8,8 +8,6 @@
     transform: rotate(30deg);
     font-weight: 600;
     font-size: 21px;
-    
-
 }
 
 .menu-button{
@@ -19,6 +17,29 @@
     margin:4px;
     animation: shadow 1s infinite;
 }
+/*styling for project and about me modal */
+.contain-navbar-modal{
+    
+    height: 10vh;
+    position: absolute;
+    top: 182px;
+    left: 28px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    font-weight: 600;
+    font-size: 21px;
+}
+
+
+
+.menu-button-modal{
+    color:black;
+    display:inline-block;
+    padding:10px;
+    margin:4px;
+    animation: shadow 1s infinite;
+}
+
 
 .projects{
     animation-delay:0.33s;
@@ -26,6 +47,8 @@
 .about-me{
     animation-delay:0.66s;
 }
+
+
 
 @keyframes shadow{
     50%{box-shadow:5px 10px black}

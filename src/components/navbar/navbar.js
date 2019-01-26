@@ -9,11 +9,11 @@ class navbar extends Component{
            depth:['1','1','1']
        }
    }
-   handleClick(e){
+//    handleClick(e){
         
-      e.target.style.animation='transition 1s';
+//       e.target.style.animation='transition 1s';
       
-   }
+//    }
 
     handleHover(e){
         e.stopPropagation();
@@ -37,10 +37,10 @@ class navbar extends Component{
     render(){
 
         return (
-            <div className='contain-navbar'>
-                <p className={`menu-button home z-depth-${this.state.depth[0]}`} value='0' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Home</p>
-                <p className={`menu-button projects z-depth-${this.state.depth[1]}`} value='1' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Portfolio</p>
-                <p className={`menu-button about-me z-depth-${this.state.depth[2]}`} value='2' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>About Me</p>
+            <div className={this.props.current=='home'?'contain-navbar':'contain-navbar-modal'}>
+                <p className={this.props.current=='home'?'menu-button':"menu-button-modal"+` home z-depth-${this.state.depth[0]}`} value='0' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Home</p>
+                <p className={this.props.current=='home'?'menu-button':"menu-button-modal"+` projects z-depth-${this.state.depth[1]}`} value='1' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Portfolio</p>
+                <p className={this.props.current=='home'?'menu-button':"menu-button-modal"+` about-me z-depth-${this.state.depth[2]}`} value='2' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>About Me</p>
             </div>
         )
 

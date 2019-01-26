@@ -1,0 +1,12 @@
+.main{
+    height:80vh;
+    width:90vw;
+    background:white;
+    opacity:0.5;
+    margin:auto;
+}
+
+.project-space{
+    height:20vh;
+    width:20vh;
+}
