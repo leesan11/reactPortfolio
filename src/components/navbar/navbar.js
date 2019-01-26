@@ -4,9 +4,15 @@ import "./navbar.css"
 class navbar extends Component{
    constructor(props){
        super(props);
+       
        this.state={
            depth:['1','1','1']
        }
+   }
+   handleClick(e){
+        
+      e.target.style.animation='transition 1s';
+      
    }
 
     handleHover(e){
@@ -32,9 +38,9 @@ class navbar extends Component{
 
         return (
             <div className='contain-navbar'>
-                <p className={`menu-button z-depth-${this.state.depth[0]}`} value='0' onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Home</p>
-                <p className={`menu-button z-depth-${this.state.depth[1]}`} value='1' onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Projects</p>
-                <p className={`menu-button z-depth-${this.state.depth[2]}`} value='2' onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>About Me</p>
+                <p className={`menu-button home z-depth-${this.state.depth[0]}`} value='0' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Home</p>
+                <p className={`menu-button projects z-depth-${this.state.depth[1]}`} value='1' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>Portfolio</p>
+                <p className={`menu-button about-me z-depth-${this.state.depth[2]}`} value='2' onClick = {this.props.handleClick} onMouseEnter ={this.handleHover.bind(this)} onMouseLeave={this.handleLeaveHover.bind(this)}>About Me</p>
             </div>
         )
 
