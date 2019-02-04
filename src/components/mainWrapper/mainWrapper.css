@@ -5,3 +5,10 @@
     background:url('../../assets/images/background-general.jpg');
     background-size:cover;
 }
+
+.main{
+    position:absolute;
+    top:10vh;
+    left:2.5vh;
+    height:fit-content !important;
+}

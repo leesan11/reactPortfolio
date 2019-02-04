@@ -1,30 +1,32 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './projects.css'
 import NavBar from '../navbar';
+import createworksheet from "../../assets/images/createworksheet.jpg";
+class projects extends Component {
 
-class projects extends Component{
+    render() {
+        return (
+            <div class='row contain-projects'>
 
-    render(){
-        return(
-            <div className='main z-depth-5'>
-            <div className='row'>
-            <div className='col s6'>
-                <NavBar/>
+                <div class='row'>
+                   
+                    <div class='col s12'>
+                        <a href="http://createworksheet.com">
+                            <div className='project-space z-depth-5' style={{ backgroundImage: `url(${createworksheet})`, backgroundSize: 'cover' }}>
+                            <div style={{height:'70%'}}></div>
+                            <p class='text card'>Project developed solely by me. The project uses PDFKit, Nodejs, Firebase, JQuery, and Materialize</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div className='col s6'>
-                <div className='project-space z-depth-5'>
-                
+                <div class='row'>
+                    <div className='project-space z-depth-5'>
+
+                    </div>
+
                 </div>
-                <div className='project-space z-depth-5'>
-                
-                </div>
-                <div className='project-space z-depth-5'>
-                
-                </div>
-                </div>
-                </div>
-            </div>
-        )
+
+            </div>)
     }
 }
 export default projects;
