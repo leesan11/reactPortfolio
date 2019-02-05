@@ -1,15 +1,15 @@
 {
-  "main.css": "/reactPortfolio/static/css/main.8ffd1cf2.chunk.css",
-  "main.js": "/reactPortfolio/static/js/main.183d104b.chunk.js",
-  "main.js.map": "/reactPortfolio/static/js/main.183d104b.chunk.js.map",
+  "main.css": "/reactPortfolio/static/css/main.de5aadb9.chunk.css",
+  "main.js": "/reactPortfolio/static/js/main.1bf9adb6.chunk.js",
+  "main.js.map": "/reactPortfolio/static/js/main.1bf9adb6.chunk.js.map",
   "static/js/1.f03e8ae8.chunk.js": "/reactPortfolio/static/js/1.f03e8ae8.chunk.js",
   "static/js/1.f03e8ae8.chunk.js.map": "/reactPortfolio/static/js/1.f03e8ae8.chunk.js.map",
   "runtime~main.js": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js",
   "runtime~main.js.map": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js.map",
-  "static/css/main.8ffd1cf2.chunk.css.map": "/reactPortfolio/static/css/main.8ffd1cf2.chunk.css.map",
+  "static/css/main.de5aadb9.chunk.css.map": "/reactPortfolio/static/css/main.de5aadb9.chunk.css.map",
   "static/media/createworksheet.jpg": "/reactPortfolio/static/media/createworksheet.99ad04dc.jpg",
   "static/media/mainWrapper.css": "/reactPortfolio/static/media/background-general.e06fab6d.jpg",
   "index.html": "/reactPortfolio/index.html",
-  "precache-manifest.6dca01f7540ed1af2c2295eca25f617d.js": "/reactPortfolio/precache-manifest.6dca01f7540ed1af2c2295eca25f617d.js",
+  "precache-manifest.932a6350129e136bb7c94ef27a7e78dd.js": "/reactPortfolio/precache-manifest.932a6350129e136bb7c94ef27a7e78dd.js",
   "service-worker.js": "/reactPortfolio/service-worker.js"
 }
