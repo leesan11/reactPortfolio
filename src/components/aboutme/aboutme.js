@@ -13,7 +13,7 @@ componentDidMount(){
         return(
             <div className='about-me'>
                 <h4>About Me</h4>
-                <p>My name is John(Sang) Lee and I am a Full Stack MERN Web Developer! I have been coding for 5 years. This site has been created with React. Please take a look at my portfolio!</p>
+                <p>My name is John Lee and I am a Full Stack MERN Web Developer! I have been coding for 5 years. This site has been created with React. Please take a look at my portfolio!</p>
             </div>
         )
     }
