@@ -11,7 +11,7 @@ class projects extends Component {
 
     render() {
         return (
-            <div class='row contain-projects'>
+            <div class='row contain-projects' style={{height:'fit-content'}}>
 
                 <div class='row'>
                    
@@ -25,7 +25,7 @@ class projects extends Component {
                     </div>
                 </div>
                 <div class='row'>
-                    <div className='project-space z-depth-5'>
+                    <div className='project-space z-depth-5' style={{height:'fit-content'}}>
 
                     </div>
 

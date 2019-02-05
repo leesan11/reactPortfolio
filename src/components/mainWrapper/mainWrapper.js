@@ -21,9 +21,11 @@ class mainWrapper extends Component{
 
     handleBodyClick = (e)=>{
         e.stopPropagation();
+        var check =e.target.parentElement.parentElement.className;
+        console.log(e.target.parentElement.className)
         console.log(e.target.className)
-        
-        if(e.target.className=='mainWrapper'){
+        if(e.target.className==='mainWrapper'||e.target.parentElement.className=='mainWrapper'||e.target.parentElement.className=='welcome-message'){
+            
         this.setState({
             current:'home',
             showHome:true,

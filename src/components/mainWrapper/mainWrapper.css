@@ -1,13 +1,13 @@
 .mainWrapper{
     height:100vh;
     width:100vw;
-    overflow:none;
     background:url('../../assets/images/background-general.jpg');
     background-size:cover;
+    overflow:none;
 }
 
 body{
-    overflow:hidden;
+   
 }
 
 .main{
