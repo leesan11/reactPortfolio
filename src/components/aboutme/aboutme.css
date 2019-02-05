@@ -5,3 +5,9 @@
     opacity:1;
     margin:auto;
 }
+
+@keyframes fadeIn{
+    from{opacity: 0;
+    transform: translate3d(0, -100%, 0);}
+    To{opacity:1;transform:none}
+}
