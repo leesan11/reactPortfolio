@@ -1,7 +1,7 @@
 {
   "main.css": "/reactPortfolio/static/css/main.27715150.chunk.css",
-  "main.js": "/reactPortfolio/static/js/main.5fe9c4ef.chunk.js",
-  "main.js.map": "/reactPortfolio/static/js/main.5fe9c4ef.chunk.js.map",
+  "main.js": "/reactPortfolio/static/js/main.d3a10be1.chunk.js",
+  "main.js.map": "/reactPortfolio/static/js/main.d3a10be1.chunk.js.map",
   "static/js/1.f03e8ae8.chunk.js": "/reactPortfolio/static/js/1.f03e8ae8.chunk.js",
   "static/js/1.f03e8ae8.chunk.js.map": "/reactPortfolio/static/js/1.f03e8ae8.chunk.js.map",
   "runtime~main.js": "/reactPortfolio/static/js/runtime~main.b0bfce8d.js",
@@ -10,6 +10,6 @@
   "static/media/createworksheet.jpg": "/reactPortfolio/static/media/createworksheet.99ad04dc.jpg",
   "static/media/mainWrapper.css": "/reactPortfolio/static/media/background-general.e06fab6d.jpg",
   "index.html": "/reactPortfolio/index.html",
-  "precache-manifest.0587bb8a58b6c9d3d82e6589551707c6.js": "/reactPortfolio/precache-manifest.0587bb8a58b6c9d3d82e6589551707c6.js",
+  "precache-manifest.0ebe3faeddcef0b1c7e217f151f20a73.js": "/reactPortfolio/precache-manifest.0ebe3faeddcef0b1c7e217f151f20a73.js",
   "service-worker.js": "/reactPortfolio/service-worker.js"
 }
