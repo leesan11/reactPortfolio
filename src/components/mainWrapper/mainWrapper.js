@@ -69,7 +69,15 @@ class mainWrapper extends Component{
         return (
             <div className='mainWrapper' onClick = {this.handleBodyClick} style={{overflow:'auto'}}>
             {this.state.showHome?<NavBar current={this.state.current} handleClick={this.handleClick}/>:""}
-            
+            <div class='welcome-message'>
+            <p>Hello. My name is John(Sang).</p>
+            <p>I am a full stack</p>
+            <p>MERN Developer. </p>
+            <p>Welcome to my page!</p>
+
+            </div>
+
+
         {this.state.showProjects?(
         <div className='main z-depth-5'>
             <div className='row'>
